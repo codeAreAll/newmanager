@@ -2,14 +2,17 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <router-link to="/login">登录</router-link>
   <router-link to="/main">首页</router-link>
+  <el-button type="primary">hahaah</el-button>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
+import { ElButton } from 'element-plus'
 export default defineComponent({
   name: 'App',
-  components: {}
+  components: {
+    ElButton
+  }
 })
 </script>
 
